@@ -1,4 +1,6 @@
-x = "Python"
-y = "is"
-z = "awesome"
-print(x + y + z)
+txt = "Hello manoj"
+
+
+mytable = txt.maketrans("m", "x")
+
+print(txt.translate(mytable))
